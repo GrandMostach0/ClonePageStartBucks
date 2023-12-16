@@ -6,3 +6,76 @@
     --cremita: #f3f1e7;
     --negro: #000000;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.menu{
+    border: 3px solid #EBEBEB;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.menu-opciones-izquierdo{
+    padding: 15px;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: var(--negro);
+    margin: 0px 15px;
+    font-weight: bold;
+}
+
+.menu-opciones-derecho{
+    display: flex;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-opciones-derecho a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botones-menu{
+    padding: 15px;
+}
+
+.btnNegro {
+    background-color: var(--negro);
+    color: var(--blanco);
+}
+
+.txtNegro{
+    color: var(--negro);
+}
+
+.botones-menu a{
+    text-decoration: none;
+    margin: 0px 15px;
+    font-weight: bold;
+}
+
+.boton{
+    padding: 16px 24px;
+    cursor: pointer;
+}
+
+.borde{
+    border: 1px solid var(--negro);
+    border-radius: 35px;
+}
