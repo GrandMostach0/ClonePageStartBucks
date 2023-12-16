@@ -79,3 +79,15 @@ body{
     border: 1px solid var(--negro);
     border-radius: 35px;
 }
+
+.findStore{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.findStore img{
+    margin: 0px 15px;
+    width: 28px;
+}
